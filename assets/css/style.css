@@ -222,14 +222,28 @@ form button {
 
 /*MEDIA QUERIES*/
 
-@media (min-width:980px) and (max-width:980px) {
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 100%;
+    }
+    
+    #left-column {
+        width: 100%;
+    }
 
+    #right-column {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+    }
 }
 
-@media (min-width:768px) and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
+   
 }
 
-@media (min-width:640px) and (max-width:640px) {
+@media screen and (max-width: 640px) {
     
 }
